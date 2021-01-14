@@ -62,22 +62,4 @@ class App extends React.Component {
 }
 
 
-
-
-class SubBreeds extends React.Component {
-  render() {
-    return(
-      <h1>SubBreeds component works!</h1>
-    )
-  }
-}
-
-class Image extends React.Component {
-  render() {
-    return(
-      <h1>Image component works!</h1>
-    )
-  }
-}
-
 export default App;
