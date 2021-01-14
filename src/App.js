@@ -33,24 +33,24 @@ class App extends React.Component {
         <div>
           <ul>
             <li>
-              <Link to="/all">Civil Service List</Link>
+              <Link to="/titles">Civil Service Titles</Link>
             </li>
             <li>
-              <Link to="/list">Citywide Payroll Data</Link>
+              <Link to="/list">Civil Service List</Link>
             </li>
             <li>
-              <Link to="/images">Civil Service Titles</Link>
+              <Link to="/data">Citywide Payroll Data</Link>
             </li>
           </ul>
           <Switch>
-            <Route path="/all">
-              <Civilservice />
+            <Route path="/titles">
+              <Titles />
             </Route>
             <Route path="/list">
-              <Payrolldata />
+              <Civilservice />
             </Route>
-            <Route path="/images">
-              <Titles />
+            <Route path="/data">
+              <Payrolldata />
             </Route>
           </Switch>
         </div>

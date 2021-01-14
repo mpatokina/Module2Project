@@ -29,7 +29,7 @@ class Payrolldata extends React.Component {
             { 
             this.state.employees && this.state.employees.map(employee => (
             <li key={ employee.id }>
-              First name: { employee.first_name } |  Last name: { employee.last_name } |  Borough: { employee.work_location_borough } | Title: { employee.title_description } |  Salary: $ { employee.base_salary } <hr></hr>
+              First name: { employee.first_name } |  Last name: { employee.last_name } |  Borough: { employee.work_location_borough } | Title: { employee.title_description } |  Salary: ${ employee.base_salary } <hr></hr>
                 
               </li>
               ))      
