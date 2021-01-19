@@ -1,5 +1,12 @@
 body {
-  padding: 5%;
+  
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h2 {
+  text-align: center;
+  color:blue;
 }
 
 

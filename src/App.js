@@ -11,7 +11,7 @@ import Payrolldata from './components/Payrolldata.js';
 import Titles from './components/Civilservicetitles.js';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-import Navbar from './components/Navbar.js';
+
 import './App.css';
 
 
@@ -28,7 +28,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <Navbar />
+        
       <Router>
         <div>
           <ul>

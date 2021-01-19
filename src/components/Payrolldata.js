@@ -25,6 +25,7 @@ class Payrolldata extends React.Component {
     render() {
       return(
         <div className="employees">
+            <h2>Citywide Payroll Data</h2>
           <ol>
             { 
             this.state.employees && this.state.employees.map(employee => (

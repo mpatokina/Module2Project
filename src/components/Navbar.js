@@ -14,6 +14,7 @@ import About from './About.js';
 import Aboutme from './Aboutme.js';
 import Aboutps from './Aboutps.js';
 import Home from './Home.js';
+import './Navbar.css';
 
 
 class Navbar extends React.Component {
@@ -22,7 +23,7 @@ class Navbar extends React.Component {
 
         <Router>
         <div>
-          <ul>
+          <ul className="Navbar">
             <li>
               <Link to="/home">Home</Link>
             </li>

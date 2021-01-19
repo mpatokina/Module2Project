@@ -25,6 +25,7 @@ class Civilservice extends React.Component {
     render() {
       return(
         <div className="candidates">
+          <h2>Civil Service List</h2>
           <ol>
             { 
             this.state.candidates && this.state.candidates.map(candidate => (
